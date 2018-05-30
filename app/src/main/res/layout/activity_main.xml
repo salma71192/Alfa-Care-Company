@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/alfa" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:textSize="26sp"
+        android:textColor="@android:color/white"
+        android:text="Description: This is a profit organization specialized in orthopedic rehabilitaion." />
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:textSize="26sp"
+        android:layout_below="@+id/description"
+        android:textColor="@android:color/white"
+        android:text="Phone: 02 0234 556 33" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:textSize="26sp"
+        android:layout_below="@+id/phone"
+        android:textColor="@android:color/white"
+        android:text="Address: Cairo, EG." />
+
+</RelativeLayout>
